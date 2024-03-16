@@ -1,18 +1,68 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
-  theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-    },
-  },
-  plugins: [],
+	content: [
+		"./pages/**/*.{js,ts,jsx,tsx,mdx}",
+		"./components/**/*.{js,ts,jsx,tsx,mdx}",
+		"./app/**/*.{js,ts,jsx,tsx,mdx}",
+	],
+	theme: {
+		extend: {
+			colors: {
+				alure: {
+					100: "#d9e1e7",
+					200: "#cbd3dc",
+					300: "#b6c1ce",
+					400: "#9ea8bd",
+					500: "#8a93ad",
+					600: "#747b9a",
+					700: "#656a81",
+					800: "#4f5463",
+					900: "#40434f",
+				},
+				martinique: {
+					50: "#dfe5f1",
+					100: "#cfd5ed",
+					200: "#b8c4e5",
+					300: "#98a9d7",
+					400: "#7389c9",
+					500: "#576abc",
+					600: "#4954a7",
+					700: "#454b92",
+					800: "#393b74",
+					900: "#30325a",
+					950: "#21223b",
+				},
+			},
+		},
+	},
+	plugins: [],
 };
+
+// Color contrast
+//
+// White Text Contrast Ratios:
+//
+// #e4e9ec (50): 1.22:1
+// #d9e1e7 (100): 1.32:1
+// #cbd3dc (200): 1.51:1
+// #b6c1ce (300): 1.82:1
+// #9ea8bd (400): 2.39:1
+// #8a93ad (500): 3.06:1
+// #747b9a (600): 4.16:1
+// #656a81 (700): 5.34:1
+// #4f5463 (800): 7.55:1
+// #40434f (900): 9.84:1
+// #202127 (950): 16.05:1
+//
+// Black Text Contrast Ratios:
+//
+// #e4e9ec (50): 17.17:1
+// #d9e1e7 (100): 15.87:1
+// #cbd3dc (200): 13.89:1
+// #b6c1ce (300): 11.51:1
+// #9ea8bd (400): 8.79:1
+// #8a93ad (500): 6.86:1
+// #747b9a (600): 5.04:1
+// #656a81 (700): 3.93:1
+// #4f5463 (800): 2.78:1
+// #40434f (900): 2.13:1
