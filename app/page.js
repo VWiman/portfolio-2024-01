@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -47,7 +48,7 @@ export default function Home() {
 					</li>
 					<hr className="fact-line" />
 				</ul>
-				<img aria-label="Animated character looking like Viktor Wiman" src="/hero_bg.png" className="hero-image" />
+				<Image aria-label="Animated character looking like Viktor Wiman" src="/hero_bg.png" className="hero-image" width={"448"} height={"672"} />
 			</section>
 		</main>
 	);
