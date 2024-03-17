@@ -5,7 +5,7 @@ export default function Home() {
 	const currentMonth = new Date().getMonth();
 	return (
 		<main className="main">
-			<section id="hero" name="hero" className="section">
+			<section id="hero" name="hero" className="hero-section">
 				<ul id="facts-list" name="facts-list" className="facts-list">
 					<li className="fact-item">
 						<span className="fact-label">Age:</span>

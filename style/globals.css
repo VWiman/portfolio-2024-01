@@ -36,9 +36,13 @@
     @apply text-white font-semibold justify-center py-4 text-center text-sm
 }
 
-.section {
+.hero-section {
     @apply flex flex-row items-center justify-center p-12 bg-alure-100 w-fit rounded-b-2xl shadow-md
 }
+
+.projects-section {
+        @apply flex flex-col items-center justify-center p-12 bg-alure-100 w-fit rounded-b-2xl shadow-md text-white
+    }
 
 
 .hero-image {
