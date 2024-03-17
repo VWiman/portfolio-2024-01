@@ -31,14 +31,14 @@
 }
 
 .main {
-    @apply flex-col min-w-full bg-gradient-to-b from-alure-100 to-alure-200 items-center gap-12 py-4 h-screen
+    @apply flex-col min-w-full bg-gradient-to-b from-alure-100 to-alure-200 items-center gap-12 py-4 md:min-h-[700px] 2xl:min-h-[1000px]
 }
 
 .footer {
     box-shadow:
         0px -4px 6px -1px rgba(0, 0, 0, 0.1),
         0px -2px 4px -1px rgba(0, 0, 0, 0.06);
-    @apply text-white font-semibold justify-center py-4 text-center text-sm
+    @apply text-white font-semibold justify-center py-4 text-center text-sm 
 }
 
 .hero-section {
