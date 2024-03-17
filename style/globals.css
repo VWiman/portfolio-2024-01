@@ -31,7 +31,7 @@
 }
 
 .main {
-    min-height: calc(100vh - 52px);
+    min-height: calc(100vh - 112px);
     @apply flex-col min-w-full bg-gradient-to-b from-alure-100 to-alure-200 items-center gap-12 py-4
 }
 
