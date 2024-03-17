@@ -31,7 +31,8 @@
 }
 
 .main {
-    @apply flex-col min-w-full bg-gradient-to-b from-alure-100 to-alure-200 items-center gap-12 py-4 md:min-h-[700px] 2xl:min-h-[1000px]
+    min-height: calc(100vh - 52px);
+    @apply flex-col min-w-full bg-gradient-to-b from-alure-100 to-alure-200 items-center gap-12 py-4
 }
 
 .footer {
