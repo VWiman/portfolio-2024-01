@@ -48,7 +48,14 @@ export default function Home() {
 					</li>
 					<hr className="fact-line" />
 				</ul>
-				<Image aria-label="Animated character looking like Viktor Wiman" src="/hero_bg.png" className="hero-image" width={"448"} height={"672"} />
+				<Image
+					alt="Animated character looking like Viktor Wiman"
+					src="/hero_bg.png"
+					className="hero-image"
+					width={"448"}
+					height={"672"}
+					priority={true}
+				/>
 			</section>
 		</main>
 	);
