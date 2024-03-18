@@ -8,7 +8,7 @@ const Header = () => {
 			<ul className="header-ul">
 				{HeaderLinks.map((link) => (
 					<li id={link.id} key={link.id}>
-						<Link href={link.href}>{link.text}</Link>
+						<Link href={link.href} className="header-link">{link.text}</Link>
 					</li>
 				))}
 			</ul>
