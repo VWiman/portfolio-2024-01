@@ -39,6 +39,13 @@ export default function contact() {
 					<span className="contact-label">CONTACT</span>
 					<HoverMark />
 				</ul>
+				<img
+					alt="An image of a letter"
+					src="/mail.png"
+					className="screen-image"
+					width={"512"}
+					height={"512"}
+				/>
 			</section>
 		</main>
 	);

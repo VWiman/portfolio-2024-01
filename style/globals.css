@@ -51,7 +51,7 @@
     }
     
 .contact-section {
-        @apply flex flex-col items-center justify-center p-4 md:p-12 bg-alure-100 w-fit rounded-b-2xl shadow-md text-white gap-4 md:gap-8 text-xs sm:text-sm md:text-base lg:text-lg
+        @apply flex flex-col-reverse md:flex-row items-center justify-center p-4 md:p-12 bg-alure-100 w-fit rounded-b-2xl shadow-md text-white gap-4 md:gap-8 text-xs sm:text-sm md:text-base lg:text-lg
     }
 
 
