@@ -10,7 +10,7 @@ export default function contact() {
 		<main className="main">
 			<section id="contact" className="contact-section">
 				<ul className="contact-list">
-					<span className="contact-label">CONTACT</span>
+					<p className="contact-label">CONTACT</p>
 					{links.map((link) => (
 						<li key={link.id} className="contact-item group">
 							<svg

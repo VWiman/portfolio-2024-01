@@ -66,15 +66,15 @@
 }
 
 .fact-item {
-    @apply flex flex-col md:flex-row md:gap-8 py-2 md:p-2
+    @apply flex flex-col md:flex-row p-2 md:p-4 md:gap-6
 }
 
 .fact-label {
-    @apply whitespace-nowrap font-semibold text-xs sm:text-sm md:text-base justify-center
+    @apply whitespace-nowrap font-semibold text-xs sm:text-sm md:text-base self-baseline
 }
 
 .fact-text {
-    @apply w-full md:text-right text-xs md:text-sm md:self-end
+    @apply w-full md:text-right text-xs md:text-sm self-baseline
 }
 
 .fact-location-text {
@@ -124,17 +124,17 @@
 
 
 .projects-list {
-    @apply flex flex-col w-fit md:w-full text-white shadow-xl md:shadow-none rounded-md md:rounded-2xl p-2 md:p-8 border-none items-center justify-center
+    @apply flex flex-col w-fit md:w-full text-white shadow-xl md:shadow-none rounded-md md:rounded-2xl p-2 md:p-8 border-none items-center justify-center overflow-hidden
 }
 
 .project-item {
-    @apply flex flex-col md:flex-row text-xs md:text-sm border-spacing-2 border-white/40 border-2 p-4 rounded-md bg-martinique-600 shadow-lg shadow-black/20 hover:shadow-black/30 hover:cursor-pointer
+    @apply flex flex-col md:flex-row text-xs md:text-sm border-spacing-2 border-white/40 border-2 p-4 rounded-md bg-martinique-600 shadow-lg shadow-black/20
 }
 
 .project-text-link {
-    @apply flex flex-col md:justify-end text-center hover:cursor-pointer hover:scale-105 items-center
+    @apply flex flex-col md:justify-end text-center items-center
 }
 
 .project-label {
-    @apply whitespace-nowrap font-semibold text-xs sm:text-sm md:text-base mt-[-15px] md:mt-[-20px] lg:mt-[-40px]
+    @apply whitespace-nowrap font-semibold text-xs sm:text-sm md:text-base mt-[-15px] md:mt-[-20px] lg:mt-[-40px] z-10
 }
