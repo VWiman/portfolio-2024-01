@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 export default function contact() {
 	const links = [
@@ -27,7 +28,7 @@ export default function contact() {
 						</li>
 					))}
 				</ul>
-				<img alt="An image of a letter" src="/mail.png" className="screen-image" width={"512"} height={"512"} />
+				<Image priority={true} alt="An image of a letter" src="/mail.png" className="screen-image" width={"512"} height={"512"} />
 			</section>
 		</main>
 	);
