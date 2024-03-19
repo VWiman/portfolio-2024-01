@@ -16,19 +16,13 @@ export default function Portfolio() {
 								className="w-4 h-4 hidden md:block">
 								<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM12.735 14c.618 0 1.093-.561.872-1.139a6.002 6.002 0 0 0-11.215 0c-.22.578.254 1.139.872 1.139h9.47Z" />
 							</svg>
-							<Link href="https://portfolio-user-profile.vercel.app/">User Profile - Portfolio Project</Link>
+							<Link href="https://userprofile.viktorwiman.com">
+								User Profile - Portfolio Project
+							</Link>
 						</span>
-						
 					</li>
 					<hr className="fact-line" />
-				</ul><Image
-							alt="An image of an animated computer screen"
-							src="/screen.png"
-							className="screen-image"
-							width={"584"}
-							height={"594"}
-							priority={true}
-						/>
+				</ul>
 			</section>
 		</main>
 	);
