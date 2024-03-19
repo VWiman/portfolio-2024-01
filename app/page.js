@@ -27,7 +27,7 @@ export default function Home() {
 										clipRule="evenodd"
 									/>
 								</svg>
-								Vallentuna
+								<span className="fact-location-text">Vallentuna</span>
 							</Link>
 						</span>
 					</li>

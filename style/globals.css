@@ -45,15 +45,15 @@
 }
 
 .hero-section {
-    @apply flex flex-row items-center justify-center p-4 md:p-12 bg-alure-100 w-fit rounded-b-2xl shadow-md text-xs sm:text-sm md:text-base lg:text-lg
+    @apply flex flex-row items-center justify-center p-4 md:p-12 bg-alure-100 w-full md:w-fit md:rounded-b-2xl shadow-md text-xs sm:text-sm md:text-base lg:text-lg
 }
 
 .projects-section {
-    @apply flex flex-col-reverse md:flex-row items-center justify-center p-4 md:p-12 bg-alure-100 w-fit rounded-b-2xl shadow-md text-white gap-4 md:gap-8 text-xs sm:text-sm md:text-base lg:text-lg
+    @apply flex flex-col md:flex-row items-center justify-center p-4 md:p-12 bg-alure-100 w-full md:w-fit md:rounded-b-2xl shadow-md text-white gap-4 md:gap-8 text-xs sm:text-sm md:text-base lg:text-lg
 }
 
 .contact-section {
-    @apply flex flex-col-reverse md:flex-row items-center justify-center p-4 md:p-12 bg-alure-100 w-fit rounded-b-2xl shadow-md text-white gap-4 md:gap-8 text-xs sm:text-sm md:text-base lg:text-lg
+    @apply flex flex-col md:flex-row items-center justify-center p-4 md:p-12 bg-alure-100 w-full md:w-fit md:rounded-b-2xl shadow-md text-white gap-4 md:gap-8 text-xs sm:text-sm md:text-base lg:text-lg
 }
 
 
@@ -62,25 +62,27 @@
 }
 
 .facts-list {
-    @apply flex flex-col w-fit text-white bg-martinique-600 shadow-2xl rounded-md md:rounded-2xl p-2 md:p-8 border-2 md:border-4 border-white/40
+    @apply flex flex-col w-fit text-white bg-martinique-600 shadow-2xl rounded-md md:rounded-2xl px-2 md:p-8 border-2 md:border-4 border-white/40
 }
 
 .fact-item {
-    @apply flex flex-col md:flex-row text-xs md:text-sm md:gap-8 py-1
+    @apply flex flex-col md:flex-row md:gap-8 py-2 md:p-2
 }
 
-
-
 .fact-label {
-    @apply whitespace-nowrap font-semibold text-xs sm:text-sm md:text-base
+    @apply whitespace-nowrap font-semibold text-xs sm:text-sm md:text-base justify-center
 }
 
 .fact-text {
-    @apply flex flex-col w-full md:text-right
+    @apply w-full md:text-right text-xs md:text-sm md:self-end
+}
+
+.fact-location-text {
+    @apply self-center
 }
 
 .fact-text-link {
-    @apply flex flex-row md:justify-end items-center hover:cursor-pointer gap-1
+    @apply flex flex-row md:justify-end hover:cursor-pointer gap-1 items-baseline
 }
 
 
@@ -109,7 +111,7 @@
 }
 
 .year-text {
-    @apply text-white decoration-white/60 text-center font-semibold text-base md:text-2xl underline underline-offset-4 mb-2 md:mb-4 leading-8
+    @apply text-martinique-700 decoration-martinique-600/60 text-center font-semibold text-base md:text-2xl underline underline-offset-4 mb-2 md:mb-4 leading-8
 }
 
 .header-link {
@@ -122,11 +124,11 @@
 
 
 .projects-list {
-    @apply flex flex-col w-full text-white bg-martinique-600 shadow-2xl rounded-md md:rounded-2xl p-2 md:p-8 border-2 md:border-4 border-white/40 items-center justify-center
+    @apply flex flex-col w-fit md:w-full text-white shadow-xl md:shadow-none rounded-md md:rounded-2xl p-2 md:p-8 border-none items-center justify-center
 }
 
 .project-item {
-    @apply flex flex-col md:flex-row text-xs md:text-sm border-spacing-2 border-white/40 border-2 p-4 rounded-md bg-martinique-500 shadow-lg shadow-black/20 hover:shadow-black/30 hover:cursor-pointer
+    @apply flex flex-col md:flex-row text-xs md:text-sm border-spacing-2 border-white/40 border-2 p-4 rounded-md bg-martinique-600 shadow-lg shadow-black/20 hover:shadow-black/30 hover:cursor-pointer
 }
 
 .project-text-link {
