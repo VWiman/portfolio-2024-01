@@ -2,7 +2,7 @@ import { Analytics } from "@vercel/analytics/react";
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import "@/style/globals.css";
-Header;
+
 export const metadata = {
 	title: "Viktor Wiman Portfolio",
 	description: "Portfolio website for web developer Viktor Wiman",
